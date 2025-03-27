@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ztGqdmNeYE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\miu10\\source\\repos\\Test\\LineBotTest\\LineBotTest\\LineBotTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miu10\\.nuget\\packages\\dotnetlinebotsdk\\8.0.0\\dotnetlinebotsdk.8.0.0.nupkg.sha512",
+    "C:\\Users\\miu10\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

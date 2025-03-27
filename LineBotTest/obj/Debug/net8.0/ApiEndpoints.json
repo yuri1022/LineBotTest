@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "LineBotTest.Controllers.LineBotController",
+    "Method": "Post",
+    "RelativePath": "api/LineBot/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestBody",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
