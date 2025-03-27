@@ -31,3 +31,4 @@ C:\Users\miu10\source\repos\Test\LineBotTest\LineBotTest\obj\Debug\net8.0\refint
 C:\Users\miu10\source\repos\Test\LineBotTest\LineBotTest\obj\Debug\net8.0\LineBotTest.pdb
 C:\Users\miu10\source\repos\Test\LineBotTest\LineBotTest\obj\Debug\net8.0\LineBotTest.genruntimeconfig.cache
 C:\Users\miu10\source\repos\Test\LineBotTest\LineBotTest\obj\Debug\net8.0\ref\LineBotTest.dll
+C:\Users\miu10\source\repos\Test\LineBotTest\LineBotTest\obj\Debug\net8.0\LineBotTest.sourcelink.json
