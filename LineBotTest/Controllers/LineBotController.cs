@@ -57,7 +57,7 @@ namespace LineBotTest.Controllers
                                 }
                                 else if (userMessage.Contains("carousel"))
                                 {
-                                    await ReplyCarouselMessage(replyToken); 
+                                    await ReplyCarouselMessage(replyToken);
                                 }
 
                                 else
@@ -190,91 +190,52 @@ namespace LineBotTest.Controllers
                 var flexMessage = new
                 {
                     type = "flex",
-                    altText = "這是一個 Flex Message",
+                    altText = "請選擇功能",
                     contents = new
                     {
                         type = "bubble",
-                        hero = new
-                        {
-                            type = "image",
-                            url = "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png", // 替換成你的圖片 URL
-                            size = "full",
-                            aspectRatio = "20:13",
-                            aspectMode = "cover"
-                        },
                         body = new
-                        {
-                            type = "box",
-                            layout = "vertical",
-                            contents = new object[]
-                            {
-                        new
-                        {
-                            type = "text",
-                            text = "Hello, Flex Message!",
-                            weight = "bold",
-                            size = "xl"
-                        },
-                        new
-                        {
-                            type = "text",
-                            text = "這是一個範例 Flex Message 回覆",
-                            margin = "md",
-                            size = "sm"
-                        }
-                            }
-                        },
-                        footer = new
                         {
                             type = "box",
                             layout = "vertical",
                             spacing = "md",
                             contents = new object[]
-                            {
-                        new
-                        {
-                            type = "button",
-                            action = new
-                            {
-                                type = "message",
-                                label = "回應類型 MESSAGE",
-                                text = "message 類型的按鈕會直接在聊天室內顯示使用者輸入的內容"
-                            },
-                            style = "primary",
-                            color = "#1DB446"
-                        },
-                        new
-                        {
-                            type = "button",
-                            action = new
-                            {
-                                type = "postback",
-                                label = "回應類型 POSTBACK",
-                                data = "action=pb"
-                            },
-                            style = "primary",
-                            color = "#000000"
-                        },
-                        new
-                        {
-                            type = "button",
-                            action = new
-                            {
-                                type = "datetimepicker",
-                                label = "選擇日期時間",
-                                data = "action=select_datetime",
-                                mode = "datetime",
-                                initial = "2025-03-18T12:00",
-                                max = "2030-12-31T23:59",
-                                min = "2023-01-01T00:00"
-                            },
-                            style = "primary",
-                            color = "#FF5733"
-                        },
-                            }
+            {
+                new
+                {
+                    type = "button",
+                    action = new
+                    {
+                        type = "uri",
+                        label = "🔐 登入",
+                        uri = "https://liff.line.me/2007672091-j5mk551k?target=login"
+                    }
+                },
+                new
+                {
+                    type = "button",
+                    action = new
+                    {
+                        type = "uri",
+                        label = "🔍 查詢據點",
+                        uri = "https://liff.line.me/2007672091-j5mk551k?target=search"
+                    }
+                },
+                new
+                {
+                    type = "button",
+                    action = new
+                    {
+                        type = "uri",
+                        label = "🎁 我的點數",
+                        uri = "https://liff.line.me/2007672091-j5mk551k?target=mypoint"
+                    }
+                }
+            }
                         }
                     }
                 };
+
 
                 var jsonContent = new
                 {
