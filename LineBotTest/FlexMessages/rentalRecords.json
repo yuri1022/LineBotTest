@@ -1,0 +1,172 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xxl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "我的租借記錄",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "color": "#000000"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CUP-0421（標準型）",
+                "weight": "bold",
+                "size": "md"
+              },
+              {
+                "type": "text",
+                "text": "租借中",
+                "size": "sm",
+                "color": "#F5A623",
+                "align": "end",
+                "offsetTop": "none"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "租借：2023-10-01",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "應還：2023-10-08",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CUP-0783（保溫型）",
+                "weight": "bold",
+                "size": "md"
+              },
+              {
+                "type": "text",
+                "text": "已歸還",
+                "size": "sm",
+                "color": "#00C300",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "租借：2023-09-25",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "歸還：2023-09-30",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CUP-1125（標準型）",
+                "weight": "bold",
+                "size": "md"
+              },
+              {
+                "type": "text",
+                "text": "逾期未還",
+                "size": "sm",
+                "color": "#FF3B30",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "justifyContent": "space-between",
+            "contents": [
+              {
+                "type": "text",
+                "text": "租借：2023-09-20",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "應還：2023-09-27",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

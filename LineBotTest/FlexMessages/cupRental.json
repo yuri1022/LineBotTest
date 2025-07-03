@@ -1,0 +1,77 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "環保隨行杯租借",
+        "size": "xxl",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "歡迎使用租借服務",
+        "size": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      }
+    ],
+    "backgroundColor": "#06C755",
+    "spacing": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📅借杯子",
+          "uri": "http://linecorp.com/"
+        },
+        "height": "md",
+        "style": "link"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🔙 還杯子",
+          "uri": "http://linecorp.com/"
+        },
+        "height": "md",
+        "style": "link"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🗺️附近據點",
+          "text": "附近據點"
+        },
+        "height": "md"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📝我的租借紀錄",
+          "uri": "http://linecorp.com/"
+        },
+        "height": "md"
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "separator": true,
+      "separatorColor": "#06C755"
+    }
+  }
+}

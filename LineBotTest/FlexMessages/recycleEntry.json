@@ -1,0 +1,34 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🔐 登入",
+          "uri": "https://liff.line.me/2007672091-j5mk551k?target=login"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🔍 查詢據點",
+          "uri": "https://liff.line.me/2007672091-j5mk551k?target=search"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🎁 我的點數",
+          "uri": "https://liff.line.me/2007672091-j5mk551k?target=mypoint"
+        }
+      }
+    ]
+  }
+}

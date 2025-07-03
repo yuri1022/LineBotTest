@@ -1,0 +1,151 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📍 附近據點",
+        "size": "xl",
+        "weight": "bold",
+        "color": "#ffffff",
+        "align": "center"
+      }
+    ],
+    "backgroundColor": "#06C755"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xxl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🏪 信義門市",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "距離：0.35km",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "可借：12｜可還：5",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ],
+            "justifyContent": "space-between"
+          }
+        ],
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🏪 大安門市",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "距離：0.8km",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "可借：8｜可還：10",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ],
+            "justifyContent": "space-between"
+          }
+        ],
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🏪 中山門市",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "距離：1.2km",
+                "size": "sm",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "可借：15｜可還：3",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end"
+              }
+            ],
+            "justifyContent": "space-between"
+          }
+        ],
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🗺️ 查看完整地圖",
+          "uri": "https://yourdomain.com/lineliff/search.html"
+        },
+        "style": "primary",
+        "color": "#06C755",
+        "margin": "xxl"
+      }
+    ]
+  }
+}
