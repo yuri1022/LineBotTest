@@ -33,7 +33,7 @@
         "action": {
           "type": "uri",
           "label": "📅借杯子",
-          "uri": "https://liff.line.me/2007685813-Wqare77j?target=borrow"
+          "uri": "https://liff.line.me/2007672091-Wpg5nnD5?target=borrow"
         },
         "height": "md",
         "style": "link"
@@ -43,7 +43,7 @@
         "action": {
           "type": "uri",
           "label": "🔙 還杯子",
-          "uri": "https://liff.line.me/2007685813-Wqare77j?target=return"
+          "uri": "https://liff.line.me/2007672091-Wpg5nnD5?target=return"
         },
         "height": "md",
         "style": "link"
