@@ -33,7 +33,7 @@
         "action": {
           "type": "uri",
           "label": "📅借杯子",
-          "uri": "http://linecorp.com/"
+          "uri": "https://liff.line.me/2007685813-Wqare77j?target=borrow"
         },
         "height": "md",
         "style": "link"
@@ -43,7 +43,7 @@
         "action": {
           "type": "uri",
           "label": "🔙 還杯子",
-          "uri": "http://linecorp.com/"
+          "uri": "https://liff.line.me/2007685813-Wqare77j?target=return"
         },
         "height": "md",
         "style": "link"
@@ -51,18 +51,18 @@
       {
         "type": "button",
         "action": {
-          "type": "message",
+          "type": "postback",
           "label": "🗺️附近據點",
-          "text": "附近據點"
+          "data": "nearby"
         },
         "height": "md"
       },
       {
         "type": "button",
         "action": {
-          "type": "uri",
+          "type": "postback",
           "label": "📝我的租借紀錄",
-          "uri": "http://linecorp.com/"
+          "data": "records"
         },
         "height": "md"
       }
